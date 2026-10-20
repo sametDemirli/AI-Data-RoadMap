@@ -45,7 +45,7 @@ print(df)
 #Yeni kodlar
 
 print(df.head())#ilk 5 eleman
-#print(df.shape)#satır sütun sayısını döndürür
-#print(df.info())#veri tablosunu tanımaya yarar.kaç satır sütun var, boş olmayan eleman sayıları, veri türleri ve bellekteki kapladığı alanı gösteri
-#print(df.describe())#sayısal değerlerin kaç tane olduğu,ortalamaları,standart sapması,minimumu,maksimumu ve bu aralığı dörde bölerek ilk çeyrek ortanca değer(medyan) üçüncü son çeyrek değerleri verir
-#print(df.groupby("Bolum")["Not"].mean())#gruplandırma yapmanı sağlar groupby("Bolum") bölümleri gruplandırır
+print(df.shape)#satır sütun sayısını döndürür
+print(df.info())#veri tablosunu tanımaya yarar.kaç satır sütun var, boş olmayan eleman sayıları, veri türleri ve bellekteki kapladığı alanı gösteri
+print(df.describe())#sayısal değerlerin kaç tane olduğu,ortalamaları,standart sapması,minimumu,maksimumu ve bu aralığı dörde bölerek ilk çeyrek ortanca değer(medyan) üçüncü son çeyrek değerleri verir
+print(df.groupby("Bolum")["Not"].mean())#gruplandırma yapmanı sağlar groupby("Bolum") bölümleri gruplandırır
